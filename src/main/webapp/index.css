@@ -1,0 +1,220 @@
+/******************************************************/
+/********************  MAIN CSS  **********************/
+/******************************************************/
+
+
+body{
+	padding: 0;
+	margin:0;
+	border: 0;
+}
+
+
+/**********************  Columnización  *********************/
+
+.row{
+	width: 100%;
+	height: 100%;
+}
+.row:before, .row:after {
+	content:"";
+	display: table ;
+	clear:both;
+}
+
+[class*='col-'] {
+	float: left;
+	min-height:1%;
+	width: 16.66%;
+	padding: 0;
+	display: inline-block;
+}
+
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%;    }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%;   }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%;    }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%;   }
+
+.offset-1{margin-left: 8.3%}
+.offset-2{margin-left: 16.6%}
+.offset-3{margin-left: 25%}
+.offset-4{margin-left: 33.3%}
+.offset-5{margin-left: 41.3%}
+.offset-6{margin-left: 50%}
+.offset-7{margin-left: 58.3%}
+.offset-8{margin-left: 66.6%}
+.offset-9{margin-left: 75%}
+.offset-10{margin-left: 83.3%}
+.offset-11{margin-left: 91.6%}
+
+
+
+
+/**********************  CABECERA  *********************/
+
+img{
+	width:100%;
+	height: auto;
+}
+
+h1{
+	font-size:2.6vw;
+	font-family: 'Roboto', sans-serif;
+	margin:0;
+	margin-top: 2%;
+}
+
+h5{
+	font-size:1.6vw;
+}
+
+header{
+	padding-right: 3%;
+	padding-left: 3%;
+	border:0;
+	width: auto;
+	height:auto;
+	background-color: #33cc33;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.form {
+	margin-top: 2%;
+	margin-left:5%;
+	position:relative;
+	height:8%;
+  text-transform: uppercase;
+  font-family: Arial;
+  color: #fff;
+	padding:0;
+}
+
+
+
+
+
+/**********************  PIE  *********************/
+
+footer{
+		background-color: #33cc33;
+}
+
+footer h5 {
+	margin-bottom: 1%;
+	margin-top: 2%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4vw;
+	text-align: center;
+}
+
+.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.horizontal > li {
+    float: left;
+}
+
+.horizontal > li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1.5vw;
+    text-decoration: none;
+		font-family: 'Architects Daughter';
+		font-size: 0.8vw;
+}
+
+.horizontal > li a:hover {
+    background-color: #bee8e8;
+}
+
+hr{
+		margin:0;
+}
+
+
+ input[type=text] {
+    width: 50%;
+    height: 3vw;
+    font-size: 22px;
+    border: 0px;
+    background-color: #e1e6ef;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 80%;
+    outline:none;
+    border-bottom: 3px solid #33cc33;
+    border-left: 3px solid #33cc33;
+	border-bottom-left-radius: 10px;
+}
+
+
+
+.vertical {
+    list-style-type: none;
+	display:inline-block;
+    margin: 0;
+	margin-top: 7%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.vertical > li {
+    float: left;
+	display: block;
+	width: 95%;
+	margin-top: 0.1vw;
+	margin-left: 2%;
+	margin-right: 5%;
+}
+
+.vertical > li a {
+    color: black;
+    text-align: center;
+    padding: 1.3vw;
+    text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6vw;
+}
+
+.vertical > li:hover {
+    background-color: #bee8e8;
+}
+
+.unbox{
+	border: 2px solid #33cc33;
+	border-left: none;
+	border-radius: 10px;
+	margin-left:0;
+}
+
+.articulo{
+	border: 2px solid #33cc33;
+	margin-left: 5px;
+}
+
+.articulo > h4{
+	font-size: 15px;
+	text-align: center;
+}
+
+.articulo > h5{
+	font-size: 10px;	
+}
