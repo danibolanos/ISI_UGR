@@ -7,6 +7,6 @@ URL: https://smartypadel.appspot.com (Funcionando a día 10/12/2019)
 
 Componentes del equipo:
 
-Daniel Bolaños Martínez
+- Daniel Bolaños Martínez
 
-Miguel Ángel Cantarero López
+- Miguel Ángel Cantarero López
