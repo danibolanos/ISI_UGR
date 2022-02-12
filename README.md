@@ -1,11 +1,11 @@
-# Practica ISI
-Repositorio para la aplicación sobre Google Engine para la asignatura Ingeniería de Sistemas de Información.
+# Prácticas Ingenierías de Sistemas de Información (ISI)
+Repositorio para la Aplicación sobre Google Engine para la asignatura Ingeniería de Sistemas de Información (Optativa del Grado de Informática) de la rama de Sistemas de Información.
 
-SmartyPadel: Comparador de precios de palas de padel.
+Desarrollo de la aplicación **SmartyPadel**: Comparador de precios de palas de padel.
 
 URL: https://smartypadel.appspot.com (Funcionando a día 10/12/2019)
 
-Componentes del equipo:
+Trabajo realizado por:
 
 - Daniel Bolaños Martínez
 
